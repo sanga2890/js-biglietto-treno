@@ -1,7 +1,9 @@
 // chiedere quanti km dovrà percorrere
 var kilometer = prompt('Quanti Km devi percorrere?');
+console.log('Lunghezza tragitto in Km: ' + kilometer);
 // chiedere l'età per capire se si può avere diritto ad uno sconto
 var eta = prompt('Quanti anni hai?');
+console.log('Età passeggero: ' + eta);
 // prezzo fisso al Km
 var prezzo_km = 0.21;
 // prezzo Biglietto minorenne
